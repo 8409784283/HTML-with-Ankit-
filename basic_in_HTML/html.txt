@@ -1,0 +1,18 @@
+HTML -  stands for HYPERR TEXT MARKUP LANGUAGE 
+
+- It is stand for language used to create web pages 
+
+key points -
+
+1> Markup langauge 
+     -Markup Language – It uses tags (like <p>, <h1>, <a>) to define elements on a webpage.
+
+2>Structure - oraganize text , images , videos , links , tables , and form on a page.
+
+3>Not a prgramming language - Html does'nt have logic (like loop or condition). it only defines a layout and contents 
+
+
+4>Works with css and javascript 
+   -HMTL - STRUCTURE 
+   -CSS  - STYLING (how its looks)
+   -Js   - BEHEVIOUR(how its works interects)
