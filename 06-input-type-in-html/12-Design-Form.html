@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+        }
+
+        form{
+            margin:10px;
+            padding:10px;
+            border:1px solid black;
+            width:22vw;
+            background-color: rgb(116, 116, 116);
+            border-radius:20px;
+        }
+        label{
+            margin:2px;
+            margin-top: 10px;
+
+
+
+        }
+
+        input{
+            margin-top:5px;
+            border-radius:10px;
+            border:none;
+            border:0.5px solid black;
+        }
+
+        .input{
+            width:330px;
+            height:20px;
+            background-color: rgb(239, 239, 239);
+        }
+    </style>
+</head>
+<body>
+    <form action="php">
+        <label for="name">Username:</label><br>
+        <input type="text" id="name" class="input"><br>
+
+         <label for="pass">password:</label><br>
+        <input type="text" id="pass" class="input"><br>
+
+         <label for="mail">E.mail:</label><br>
+        <input type="text" id="mail" class="input"><br>
+
+         Gender :<label for="male">male:</label>
+        <input type="radio" id="male" name="gender">
+
+         <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender">
+
+        <label for="other">Other:</label>
+        <input type="radio" id="other" name="gender"><br>
+
+        Enter your subject : <label for="check">B.tech</label>
+        <input type="checkbox" id="check">
+
+        <label for="check">BCA</label>
+        <input type="checkbox" id="check">
+
+        <label for="check">Bsc.IT</label>
+        <input type="checkbox" id="check"><br>
+
+        <input type="submit" name="button" id="btn" class="input">
+
+    </form>
+</body>
+</html>
